@@ -1,3 +1,12 @@
+# Directories
+!data/
+data/*
+!data/test
+
+!results/
+results/*
+!/results/test
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
