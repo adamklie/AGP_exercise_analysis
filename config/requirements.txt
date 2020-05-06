@@ -1,0 +1,7 @@
+jupyter
+ipykernel
+redbiom
+songbird
+opt-einsum
+deicode
+qurro
