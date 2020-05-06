@@ -1,0 +1,8 @@
+exercise_location
+exercise
+enjoyment_of_exercise
+exercise_frequency
+exercise_status
+total_hours_exercise
+exercise_frequency_unit
+pm_lifestyle_change_how_change_in_exercise
