@@ -66,3 +66,13 @@ wget -O data/taxonomy/ref-seqs-v4.qza https://github.com/BenKaehler/readytowear/
 wget -O data/taxonomy/ref-tax.qza https://github.com/BenKaehler/readytowear/raw/master/data/gg_13_8/515f-806r/ref-tax.qza
 mkdir results/test/${DATE}/taxonomy
 ```
+
+#### Diversity
+```bash
+mkdir results/test/${DATE}/diversity
+```
+
+#### Differential abundance
+```bash
+mkdir results/test/${DATE}/differential_abundance
+```
