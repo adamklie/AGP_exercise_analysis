@@ -18,7 +18,7 @@ git clone https://github.com/adamklie/AGP_exercise_analysis.git
 Run the following from the terminal to set-up a default Qiime2 environment
 ```bash
 cd ../config
-conda env create -n qiime2-2020.2 --file qiime2-2020.2-py36-osx-conda.yml
+conda env create -n qiime2-2020.2 --file config/qiime2-2020.2-py36-osx-conda.yml
 conda activate qiime2-2020.2
 conda install -r config/requirements.txt
 ```
@@ -34,8 +34,9 @@ jupyter serverextension enable --py qiime2 --sys-prefix
 
 ## Data download
 Run download_data.ipynb to download BIOM table and metadata for AGP samples
+TODO: Add random seed
 
-## Generate features for analysis
+## Generate features for analysis --> make folders in scripts
 ```bash
 DATE=$(date +%F | sed 's/-/_/g')
 mkdir results/test/${DATE}
@@ -75,4 +76,9 @@ mkdir results/test/${DATE}/diversity
 #### Differential abundance
 ```bash
 mkdir results/test/${DATE}/differential_abundance
+```
+
+#### Sample classification
+```bash
+mkdir results/test/${DATE}/sample_classification
 ```
