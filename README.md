@@ -16,6 +16,11 @@ cd AGP_exercise_analysis
 ```
 
 ### Download and install Qiime2 conda environment 
+Download the appropriate [environment configuration file](https://docs.qiime2.org/2020.2/install/native/#install-QIIME-2-within-a-conda-envrionment) for your operating system (example here is 64-bit Linux)
+```bash
+wget https://data.qiime2.org/distro/core/qiime2-2020.2-py36-linux-conda.yml
+
+```
 Run the following from the terminal to set-up a default Qiime2 environment
 ```bash
 conda env create -n qiime2-2020.2 --file config/qiime2-2020.2-py36-linux-conda.yml

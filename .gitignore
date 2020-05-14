@@ -2,6 +2,7 @@
 data/*
 results/*
 bin/Untitled.*
+config/qiime2-2020.2-py36-*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
