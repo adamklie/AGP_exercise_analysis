@@ -39,8 +39,8 @@ Run the following after activating the environment to set-up bash kernel
 ```bash
 pip install bash_kernel
 python -m bash_kernel.install
-python -m ipykernel install --user --name=qiime2-2020.2
 jupyter serverextension enable --py qiime2 --sys-prefix
+python -m ipykernel install --user --name=qiime2-2020.2
 ```
 
 ## Data download
@@ -51,7 +51,7 @@ Follow and run download_data.ipynb to download BIOM table and metadata for AGP s
 #### Fragment insertion tree reference
 ```bash
 mkdir data/sepp
-wget -O data/sepp-refs-gg-13-8.qza https://data.qiime2.org/2020.2/common/sepp-refs-gg-13-8.qza
+wget -O data/sepp/epp-refs-gg-13-8.qza https://data.qiime2.org/2020.2/common/sepp-refs-gg-13-8.qza
 ```
 
 #### Taxonomic classification weights, reference sequences and reference taxonomy
