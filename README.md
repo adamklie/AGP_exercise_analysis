@@ -1,5 +1,5 @@
 # AGP_exercise_analysis
-Analysis of existing American Gut Project data on exercise frequency
+Analysis of existing American Gut Project data on exercise frequency (beta version)
 
 ## Environment set-up
 To run the notebooks for this analysis, it is recommended to use a qiime2 conda environment and install a handful
