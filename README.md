@@ -1,5 +1,5 @@
 # AGP_exercise_analysis
-Analysis of existing American Gut Project data on exercise frequency (beta version)
+Analysis of existing American Gut Project data on exercise frequency
 
 ## Environment set-up
 To run the notebooks for this analysis, it is recommended to use a qiime2 conda environment and install a handful
@@ -39,9 +39,12 @@ Run the following after activating the environment to set-up bash kernel
 ```bash
 pip install bash_kernel
 python -m bash_kernel.install
-jupyter serverextension enable --py qiime2 --sys-prefix
 python -m ipykernel install --user --name=qiime2-2020.2
+jupyter serverextension enable --py qiime2 --sys-prefix
 ```
+
+### Shuf?
+If running from OSX, you may have to download shuf: brew install coreutils
 
 ## Data download
 
