@@ -33,11 +33,11 @@ echo -e "Outputting results to ${RESULTS}"
 cd $PBS_O_WORKDIR
 source activate qiime2-2020.2
 qiime fragment-insertion sepp \
-    --i-representative-sequences ${RESULTS}/rep_seqs/rep-seqs.qza \
+    --i-representative-sequences ${RESULTS}/rep_seqs/unhealthy-rep-seqs.qza \
     --i-reference-database ${DATA}/sepp/sepp-refs-gg-13-8.qza \
     --p-threads 16 \
-    --o-tree ${RESULTS}/fragment_insertion/sepp-tree.qza \
-    --o-placements ${RESULTS}/fragment_insertion/sepp-placements.qza
+    --o-tree ${RESULTS}/fragment_insertion/unhealthy-sepp-tree.qza \
+    --o-placements ${RESULTS}/fragment_insertion/unhealthy-sepp-placements.qza
     
 duration=$(( SECONDS - start ))
 echo -e "\nTime elapsed: $duration"
